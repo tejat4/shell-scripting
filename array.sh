@@ -4,7 +4,7 @@
 #echo entered name are: ${names[0]}, ${names[1]}, ${names[2]}
 
 #echo
-echo "#accessing all array names"
+echo "#accessing all array names at load time , we have to run ./test.sh teja sony"
 echo $1 $2 $3 '> echo $1 $2 $3'
 
 args=("$@")
