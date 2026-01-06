@@ -7,6 +7,7 @@ do
 	echo "$n"
 #	n=$(( n+1 ))
 	(( ++n ))
+	sleep 1
 done
 
 
